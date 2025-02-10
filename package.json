@@ -48,6 +48,7 @@
     "pathe": "^1.1.2"
   },
   "devDependencies": {
+    "@alloc/prettier-config": "^1.0.0",
     "@commitlint/cli": "^17.8.1",
     "@types/node": "^20.17.17",
     "@typescript-eslint/parser": "^5.62.0",

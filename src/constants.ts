@@ -1,4 +1,4 @@
-export const VITE_PLUGIN_NAME = 'vite-plugin-image-options';
+export const VITE_PLUGIN_NAME = 'vite-plugin-image-options'
 export const DEFAULT_OPTIONS = {
   logStats: true,
   ansiColors: true,
@@ -61,4 +61,4 @@ export const DEFAULT_OPTIONS = {
   },
   cache: false,
   cacheLocation: undefined,
-};
+}

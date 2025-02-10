@@ -25,4 +25,4 @@ module.exports = {
     'after:bump': 'pnpm build && pnpm tarball',
     'after:release': 'echo Successfully created a release v${version} for ${repo.repository}. Please add release notes and publish it!',
   },
-};
+}

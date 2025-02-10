@@ -1,13 +1,11 @@
 // import type { Plugin, ResolvedConfig } from 'vite'
 // import { VITE_PLUGIN_NAME, DEFAULT_OPTIONS } from './constants';
 import type { Plugin } from 'vite'
-import { VITE_PLUGIN_NAME } from './constants';
+import { VITE_PLUGIN_NAME } from './constants'
 
-interface Options {
-}
+interface Options {}
 
 function ViteImageOptions(optionsParam: Options = {}): Plugin {
-
   console.log(optionsParam)
 
   // let outputPath: string;
@@ -39,4 +37,4 @@ function ViteImageOptions(optionsParam: Options = {}): Plugin {
   }
 }
 
-export { Options, ViteImageOptions };
+export { Options, ViteImageOptions }

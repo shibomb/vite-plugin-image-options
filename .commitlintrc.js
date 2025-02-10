@@ -35,4 +35,4 @@ module.exports = {
     customScopesAlias: 'new',
     skipQuestions: ['body', 'breaking', 'footerPrefix', 'confirmCommit'],
   },
-};
+}
